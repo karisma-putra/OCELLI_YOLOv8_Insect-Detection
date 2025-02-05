@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 25
+names: ['Amblypsylopus sp', 'Apis sp', 'Carpelimus sp', 'Cofana spectra', 'Elaphropus sp', 'Formicidae sp -tidak terlihat dari samping-', 'Hydrophilus piceus', 'Iridomyrmex sp', 'Metoeca foedalis', 'Micronecta sp', 'Monocrepidius sp', 'Nala sp', 'Neoporus sp', 'Nylanderiasp', 'Oncocephalus sp', 'Ophionea nigrifasciata', 'Ostrinia sp atau Crocidophora sp', 'Paederus fuscipes', 'Pilonthus sp', 'Psychoda sp', 'Pyralidae -kalau kecil-', 'Sepedon sphegea', 'Tachys sp', 'Termitidae', 'Tipula sayi']
+
+roboflow:
+  workspace: object-detection-nvmtf
+  project: identifikasi-serangga
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/object-detection-nvmtf/identifikasi-serangga/dataset/1
